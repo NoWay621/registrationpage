@@ -1,0 +1,94 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: powderblue;
+}
+.main{
+    padding: 25px;
+    background: #fff;
+    height: 50%;
+}
+.main h1{
+    text-align: center;
+    padding: 25px;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.input-name span{
+    margin-left: 35px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.input-name i{
+    position: absolute;
+    font-size: 15px;
+    color: blue;
+    border-right: 2px solid #cccccc;
+}
+.span .lock{
+    padding: 8px;
+}
+.email{
+    padding: 8px;
+}
+.confirm{
+    padding: 8px;
+}
+.text-name, .name{
+    border: 2px solid #cccccc;
+    outline: none;
+    -webkit-tronsition: all 0.30s ease-in-out;
+    -moz-tronsition: all 0.30s ease-in-out;
+    -ms-tronsition: all 0.30s ease-in-out;
+    tronsition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background: #fafafa;
+}
+.text-name:focus, .name:focus{
+    border: 2px solid blue;
+}
+.radio-button{
+    margin-right: 4px;
+}
+.Country{
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+}
+.Country:hover, .Country:focus{
+    color: blue;
+    background: #fafafa;
+    border-color: blue;
+    outline: none;
+}
+.button{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    background-color: blue;
+    text-color: white:
+}
